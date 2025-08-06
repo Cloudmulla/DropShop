@@ -54,7 +54,7 @@ export function CategoryGrid() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Shop by Category</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Explore our diverse range of product categories and find exactly what you're looking for.
+            Explore our diverse range of product categories and find exactly what you&apos;re looking for.
           </p>
         </div>
 
