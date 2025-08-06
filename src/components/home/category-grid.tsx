@@ -77,9 +77,9 @@ export function CategoryGrid() {
               <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition-colors">
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                   <h3 className="text-xl font-bold mb-1">{category.name}</h3>
-                  <p className="text-sm opacity-90">
+                  <span className="text-sm opacity-90">
                     {category.productCount} products
-                  </p>
+                  </span>
                 </div>
               </div>
             </Link>

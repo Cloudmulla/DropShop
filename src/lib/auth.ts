@@ -6,6 +6,7 @@ import { prisma } from "@/lib/prisma"
 import "@/types/auth"
 
 export const authOptions: NextAuthOptions = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   adapter: PrismaAdapter(prisma) as any,
   providers: [
     CredentialsProvider({
